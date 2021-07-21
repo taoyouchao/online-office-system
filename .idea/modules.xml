@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/oos.iml" filepath="$PROJECT_DIR$/oos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oos-generator/oos-generator.iml" filepath="$PROJECT_DIR$/oos-generator/oos-generator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oos-mail/oos-mail.iml" filepath="$PROJECT_DIR$/oos-mail/oos-mail.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oos-server/oos-server.iml" filepath="$PROJECT_DIR$/oos-server/oos-server.iml" />
+    </modules>
+  </component>
+</project>
