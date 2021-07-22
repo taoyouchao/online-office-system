@@ -25,7 +25,18 @@ spring:
       connection-timeout: 30000
       #测试连接是否可用的查询语句
       connection-test-query: SELECT 1
-
+  #RabbitMQ
+  rabbitmq:
+    username: admin
+    password: 123
+    host: 47.108.13.47
+    port: 5672
+    virtual-host: /
+    #消息确认回调
+    publisher-confirm-type: correlated
+    #消息失败回调
+    publisher-returns: true
+  #Redis
   redis:
     timeout: 10000ms
     host: localhost
