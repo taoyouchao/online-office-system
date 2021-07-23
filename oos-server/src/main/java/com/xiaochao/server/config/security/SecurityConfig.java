@@ -56,7 +56,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                         "/doc.html",
                         "/webjars/**",
                         "/swagger-resources/**",
-                        "/v2/api-docs/**"
+                        "/v2/api-docs/**",
+                        "/captcha"
                 );
     }
 
@@ -73,9 +74,9 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
         //使用jwt不需要csrf
         http.csrf()
                 .disable()
-                //基于Token，不需要session
+//                基于Token，不需要session
                 .sessionManagement()
-                .sessionCreationPolicy(SessionCreationPolicy.STATELESS)
+                .sessionCreationPolicy(SessionCreationPolicy.IF_REQUIRED)
                 .and()
                 .authorizeRequests()
                 //所有请求都需要认证
