@@ -1,12 +1,11 @@
-![](F:\myproject\oospic\chat.png)
+![登录界面展示](https://github.com/taoyouchao/online-office-system/blob/master/pic/login.png)
 
-![employee](F:\myproject\oospic\employee.png)
+![首页](https://github.com/taoyouchao/online-office-system/blob/master/pic/home.png)
 
-![home](F:\myproject\oospic\home.png)
+![websocket聊天界面](https://github.com/taoyouchao/online-office-system/blob/master/pic/chat.png)
 
-![login](F:\myproject\oospic\login.png)
+![员工管理](https://github.com/taoyouchao/online-office-system/blob/master/pic/employee.png)
 
-![optioner](F:\myproject\oospic\optioner.png)
+![操作员管理](https://github.com/taoyouchao/online-office-system/blob/master/pic/optioner.png)
 
-![salary](F:\myproject\oospic\salary.png)
-
+![薪资账套管理](https://github.com/taoyouchao/online-office-system/blob/master/pic/salary.png)
