@@ -86,10 +86,6 @@ public class Admin implements Serializable, UserDetails {
 
 
 
-
-
-
-
     /**
      * 获取用户权限
      * @return
